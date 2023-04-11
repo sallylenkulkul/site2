@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration: none
+}
+
+.body {
+    animation: abrindo 1s linear;
+}
+
+@keyframes abrindo {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.a {
+    color: black;
+}
+
+.teto {
+    position: fixed;
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.subir {
+    animation: sobe 1s forwards;
+}
+
+@keyframes sobe {
+    0% {
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: -100px;
+    }
+}
+
+.descer {
+    animation: desce 1s forwards;
+}
+
+@keyframes desce {
+    0% {
+        margin-top: -100px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+.flecha {
+    position: absolute;
+    width: 3%;
+    margin-left: 48.5%;
+}
+
+.gira1 {
+    animation: giraa 1s forwards;
+}
+
+@keyframes giraa {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 180deg;
+    }
+}
+
+.gira2 {
+    animation: girab 1s forwards;
+}
+
+@keyframes girab {
+    0% {
+        rotate: 180deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
+
+.escrita1:hover {
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.escrita2:hover {
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.escrita3:hover {
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.escrita4:hover {
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.escrita1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.invisivel {
+    width: 30%;
+    height: 100%;
+}
+
+.escrita2 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.escrita3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.escrita4 {
+    width: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tetao {
+    width: 30%;
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.globao {
+    width: 30px;
+}
+
+.pesquisa {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25%;
+    width: 50%;
+    height: 8vh;
+}
+
+.filtro {
+    margin-top: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.filtrosss {
+    border-radius: 3px;
+    border: solid 1px;
+    font-size: 16px;
+}
+
+.barra {
+    margin-top: 150px;
+    display: flex;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+    height: 50px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+#txtBusca {
+    float: left;
+    color: aliceblue;
+    background-color: transparent;
+    padding-left: 5%;
+    font-size: 16px;
+    border: none;
+    height: 32px;
+    width: 70%;
+}
+
+.textin {
+    height: 50%;
+    width: 80%;
+}
+
+.lupinha {
+    left: 10px;
+}
+
+.lupinha:hover {
+    cursor: pointer;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.produtos {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+}
+
+.itens1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5vh;
+    height: 600px;
+    margin-bottom: 5vh;
+    width: 90%;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 2px;
+    border-color: black;
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 2px;
+    border-color: black;
+}
+
+.item3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 2px;
+    border-color: black;
+}
+
+.botaoler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    height: 40px;
+    width: 150px;
+    background-color: #5271FF;
+    color: white;
+}
+
+.botaoler:hover {
+    cursor: pointer;
+    background-color: #405fe6e8;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações de pagamento</title>
+    <link rel="stylesheet" href="cartao.css">
+</head> 
+<body>
+    <body>
+        <div class="teto" id="teto">
+            <a href="principal.html"><img src="ScriptStorm.png" height="70" width="200"></a>
+                <div class="invisivel"></div>
+                <div class="tetao">
+                    <a class="a"  href="principal.html"><div class="escrita1">Início</div></a>
+                    <a class="a" href="textos.html"><div class="escrita2">Textos</div></a>
+                    <a class="a" href="autores.html"><div class="escrita3">Autores</div></a>
+                    <a class="a" href="leituras.html"><div class="escrita4">
+                    <img src="carrinho.png" class="carrinho" height="35" width="30">Leituras
+                </div></a>
+                </div>
+        </div>
+        <br>
+            <img src="flecha.png" id="flecha" class="flecha" onclick="Mudarestado2('flecha');Mudarestado('teto')">
+    
+    <div class="embaixo">
+        <div class="retan1">
+            <div class="Dados">Dados do Titular do Cartão</div>
+            <br>
+            <div class="Numero">Numero do Cartão</div>
+            <input type="text" class="numero">
+            <div class="valicode">
+                <div class="validade">
+                    Validade
+                    <input type="text" class="vali">
+                </div>
+                <div class="codigo">
+                    CVV
+                    <input type="text" class="CVV">
+                </div>
+            </div>
+            <div class="Nome">Nome Completo</div>
+            <input type="text" class="nome">
+            <div class="CPF">CPF</div>
+            <input type="text" class="cpf">
+            <div class="teda">
+                <div class="telefone">
+                    Telefone
+                    <input type="text" class="tele">
+                </div>
+                <div class="data">
+                    Data de Nascimento
+                    <input type="text" class="date">
+                </div>
+            </div>  
+            Selecione um Estado para entrega:
+            <select id="estado" class="para">
+            <option>1x de R$19,90 </option>
+            <option>2x de R$9,95 sem juros</option>
+            <option>3x de R$6,64 sem juros</option>
+            <option>4x de R$4,98 sem juros</option>
+            </select>
+        </div>
+        <div class="retan2">
+            <img src="cartaozao.png" class="cartao" >
+        </div>
+        <div class="retan3">
+            <div class="borda">
+                <div class="parte1">Resumo do Pedido</div>
+                <div class="parte2">
+                    <div class="excrita">
+                        <div class="peq">Itens do Pedido</div>
+                        <div class="gran">1x Livro XXXXX</div>
+                    </div>
+                    <div class="num">R$ 19,90</div>
+                </div>
+                <div class="parte3">
+                    <div class="forma">Forma de pagamento</div>
+                    <div class="ca">
+                        <img src="mini.png" class="mini">
+                        <div class="cc">Cartão de Credito</div>
+                    </div>
+                </div>
+                <div class="parte4">
+                    <div class="tempo">Tempo de processamento</div>
+                    <div class="util">Até 1 dia útil</div>
+                </div>
+                <div class="parte5">
+                    <div class="ult1">1x de 19,90</div>
+                    <div class="ult2">
+                        <div class="totall">Total a pagar:</div>
+                        <div class="deze">R$19,90</div>
+                    </div>
+                </div>
+            </div>
+            <a href="conclusaocompra.html"><button>FINALIZAR COMPRA</button></a>
+        </div>
+    </div>
+</body>
+<Script src="animateto.js"></Script>
+</html>

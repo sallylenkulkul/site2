@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autenticação</title>
+    <link rel="stylesheet" href="autenticacao.css">
+</head>
+
+<body>
+    <div class="teto" id="teto">
+        <a href="principal.html"><img src="ScriptStorm.png" height="70" width="200"></a>
+        <div class="invisivel"></div>
+        <div class="tetao">
+            <a class="a" href="principal.html">
+                <div class="escrita1">Início</div>
+            </a>
+            <a class="a" href="textos.html">
+                <div class="escrita2">Textos</div>
+            </a>
+            <a class="a" href="autores.html">
+                <div class="escrita3">Autores</div>
+            </a>
+            <a class="a" href="leituras.html">
+                <div class="escrita4">
+                    <img src="carrinho.png" class="carrinho" height="35" width="30">Leituras
+                </div>
+            </a>
+        </div>
+    </div>
+    <br>
+    <img src="flecha.png" id="flecha" class="flecha" onclick="Mudarestado2('flecha');Mudarestado('teto')">
+
+    <div class="embaixo">
+        <div class="insira">Insira o código de 6 dígitos que enviamos em seu e-mail para confirmar seu cadastro</div>
+        <input type="text" id="txtBusca" class="Codigo" />
+        <div class="reenviar">
+            <a href="autenticacao.html" target="_self">
+                Reenviar código
+            </a>
+        </div>
+
+        <div class="botao1">
+            <a href="textos.html"><button>CONTINUAR</button></a>
+        </div>
+    </div>
+</body>
+<script src="animateto.js"></script>
+
+</html>
